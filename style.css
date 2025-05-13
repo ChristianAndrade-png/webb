@@ -1,0 +1,116 @@
+ <style>
+        body {
+            background-color: #fcf192;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        header {
+            background-color: #8bd17d;
+            padding: 10px;
+        }
+        nav {
+            margin: 10px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        h1, h2, h3 {
+            color: #990000;
+        }
+        .content {
+            width: 60%;
+            margin: 0 auto;
+            text-align: left;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: white;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th {
+            background-color: #e0e0e0;
+        }
+        td {
+            padding: 5px;
+        }
+        .tools {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 30px;
+        }
+        .tool {
+            text-align: center;
+        }
+        .tool img {
+            width: 80px;
+        }
+        footer {
+            margin-top: 30px;
+            font-weight: bold;
+        }
+        .menu-container {
+        background-color: #8bd17d;
+        padding: 20px;
+        border-radius: 10px;
+        width: max-content;
+        margin: 0 auto;
+    }
+
+    .menu {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .dropdown {
+        position: relative;
+    }
+
+    .dropbtn {
+        background-color: transparent;
+        color: black;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .dropbtn.active {
+        background-color: #3d2a1b;
+        color: white;
+        border-radius: 40px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: white;
+        min-width: 150px;
+        box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+        z-index: 1;
+        padding: 10px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 5px 0;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    </style>
